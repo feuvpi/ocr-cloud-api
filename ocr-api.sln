@@ -3,13 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34701.34
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "Api.csproj", "{DC4AA69E-89EE-41C7-A761-B887EB48199F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api", "Api.csproj", "{DC4AA69E-89EE-41C7-A761-B887EB48199F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1E06CAAE-8FA2-428B-846C-7B84E8632CC3} = {1E06CAAE-8FA2-428B-846C-7B84E8632CC3}
+		{458F9A78-F615-47A2-94D9-16D71AF3A810} = {458F9A78-F615-47A2-94D9-16D71AF3A810}
+		{7E73F922-721E-4D42-8284-14D133C1EAFC} = {7E73F922-721E-4D42-8284-14D133C1EAFC}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "..\Domain\Domain.csproj", "{7E73F922-721E-4D42-8284-14D133C1EAFC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "..\Domain\Domain.csproj", "{7E73F922-721E-4D42-8284-14D133C1EAFC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "..\Service\Service.csproj", "{458F9A78-F615-47A2-94D9-16D71AF3A810}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service", "..\Service\Service.csproj", "{458F9A78-F615-47A2-94D9-16D71AF3A810}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "..\Infrastructure\Infrastructure.csproj", "{1E06CAAE-8FA2-428B-846C-7B84E8632CC3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "..\Infrastructure\Infrastructure.csproj", "{1E06CAAE-8FA2-428B-846C-7B84E8632CC3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Itens de Solução", "Itens de Solução", "{7CA97456-2D36-479D-9989-F26DFC8B818D}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
