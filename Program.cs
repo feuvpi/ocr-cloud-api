@@ -7,6 +7,8 @@ using Amazon.SQS;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Amazon.Extensions.NETCore.Setup;
 using Azure.AI.DocumentIntelligence;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
